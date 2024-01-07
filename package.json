@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "astro build",
+    "dev": "wrangler pages dev ./dist"
+  },
+  "dependencies": {
+    "@ark-ui/react": "1.1.0",
+    "@park-ui/tailwind-plugin": "0.15.0",
+    "astro": "3.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-variants": "^0.1.20"
+  },
+  "devDependencies": {
+    "@astrojs/cloudflare": "^8.0.0",
+    "wrangler": "^3.22.1",
+    "@astrojs/react": "3.0.3",
+    "@astrojs/tailwind": "5.0.2",
+    "tailwindcss": "3.3.3"
+  }
+}
